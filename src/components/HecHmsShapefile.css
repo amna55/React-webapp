@@ -1,0 +1,15 @@
+/* ShapefileMap.css */
+.map-container {
+    height: 400px;
+    width: 100%;
+  }
+  
+  /* Optional: Styles for the GeoJSON features */
+  .leaflet-geojson-path {
+    /* Example style: Change as needed */
+    fill: blue;
+    font-weight: 2;
+    color: white;
+    fill-opacity: 0.7;
+  }
+  

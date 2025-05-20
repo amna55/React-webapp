@@ -1,0 +1,46 @@
+.heading {
+  text-align: center;
+  margin-top: 30px; /* Adjust the top margin as needed */
+  margin-bottom: 80px;
+  font-size: 40px; /* Adjust the font size as needed */
+  color: #333; /* Adjust the font color as needed */
+}
+
+.video-container {
+  position: relative; /* For absolute positioning of the video inside */
+  padding-top: 30%; /* 16:9 Aspect Ratio (divide 9 by 16 and multiply by 100) */
+  margin: 20px auto; /* Adjust margin as needed */
+  max-width: 900px; /* Maximum width of the video, can adjust as needed */
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Make the video fill the container */
+  height: 100%; /* Make the video fill the container */
+  max-height: 500px; /* Optional: Set a maximum height for the video */
+}
+
+.description {
+  text-align: center; /* Center the text within the description div */
+  margin: 1px auto; /* Vertically space the description from surrounding content */
+  max-width: 900px; /* Match the max-width to the video for consistency */
+  padding: 0 15px; /* Add some padding for smaller screens */
+}
+
+/* Additional styling to ensure that other page elements do not interfere */
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Ensure that the content is centered and the container sizes are correct */
+.container {
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Maximum width of the central content, adjust as needed */
+  margin: 0 auto; /* Center the container */
+}

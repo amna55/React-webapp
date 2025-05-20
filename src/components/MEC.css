@@ -1,0 +1,11 @@
+.combined-container{
+    align-items: center;
+    display: grid;
+    justify-items: center;
+}
+
+.hechmsbutton{
+    align-items: center;
+    width: auto;
+    padding: 20px;
+}

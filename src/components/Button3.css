@@ -1,0 +1,37 @@
+.action-buttons {
+    display: flex;
+    justify-content: center; /* Align buttons in the center horizontally */
+    gap: 20px; /* Creates space between the two buttons */
+    margin-top: 20px; /* Adds some space above the button container */
+    margin-bottom: 20px;
+  }
+  
+  .action-buttons button {
+    padding: 10px 20px; /* Adds padding inside the buttons for a larger clickable area */
+    font-size: 20px; /* Sets the font size for the text inside the buttons */
+    border: black; /* Removes the default border */
+    border-radius: 10px; /* Rounds the corners of the buttons */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the buttons */
+    transition: background-color 0.3s ease; /* Smooth transition for the background color change on hover */
+  }
+  
+  .go-first-page-button {
+    width: auto; /* Adjust the width as needed */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-bottom: 10px; /* Add some space below the select box */
+    border: 1px solid #000000; /* A light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 20px;
+    align-items: center;
+  }
+  
+  .go-second-page-button {
+    width: auto; /* Adjust the width as needed */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-bottom: 10px; /* Add some space below the select box */
+    border: 1px solid #000000; /* A light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 20px;
+  }
+  
+  

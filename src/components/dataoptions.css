@@ -1,0 +1,315 @@
+.info-box-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .info-content {
+    display: none;
+    width: 200px;
+    background-color: #f9f9f9;
+    color: #000;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: auto; /* Use half of the width (width / 2) */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .info-box:hover .info-content {
+    display: block;
+  }
+  
+  .data-entry-container{
+    height: auto;
+    padding-top: 2%;
+    overflow: auto;
+    width: auto;
+    margin: 0.2%;
+    text-align: center; /* Center children vertically if there's enough space */
+    justify-content: flex-start; /* Align children to the top */
+
+  }
+
+  .entry-type-select {
+    width: auto; /* Adjust the width as needed */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-bottom: 20px; /* Add some space below the select box */
+    margin-top: 0%;
+    border: 1px solid #ccc; /* A light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .data-entry-container h1 {
+    color: #000000; /* Change the text color */
+    text-decoration: underline;
+    font-size: 2rem; /* Adjust the font size */
+    text-align:center; /* Center-align the text */
+    margin-top: 10px; /* Add space on the top */
+    margin-bottom: 20px; /* Add space on the bottom */
+    font-family: 'Arial', sans-serif; /* Change the font family */
+  }
+
+  .data-entry-container h2 {
+    margin-top: 50px;
+    padding-bottom: 0%;
+    color: #000000; /* darker text for the heading */
+  }
+
+  .data-entry-container h3 {
+    font-size: 25px;
+  }
+
+
+  .csv-upload-label {
+    width: auto; /* Adjust the width as needed */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-top: 20px;
+    margin-bottom: 10px; /* Add some space below the select box */
+    border: 0px solid #ccc; /* A light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.csv-number {
+  display: flex; /* Use flexbox to align children */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  padding: 8px; /* Add some padding for better appearance */
+  margin-top: 20px;
+  margin-bottom: 10px; /* Add some space below each .csv-number */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 20px;
+}
+
+.file-input{
+  display: flex;
+  align-items: center; /* This will vertically center the text with the button */
+  justify-content: center;
+}
+
+
+.input {
+    width: auto; /* Adjust the width as needed */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-bottom: 10px; /* Add some space below the select box */
+    border: 1px solid #ccc; /* A light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-file {
+    width: auto; /* Adjust the width as needed */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-bottom: 5px; /* Add some space below the select box */
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.date-label {
+    width: auto; /* Adjust the width as needed */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-bottom: 10px; /* Add some space below the select box */
+    border: 1px solid #ccc; /* A light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 20px;
+}
+
+.input-date {
+    width: auto; /* Adjust the width as needed */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-bottom: 10px; /* Add some space below the select box */
+    border: 1px solid #ccc; /* A light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 20px;
+}
+
+.action-button{
+    border: 1px solid #ccc; /* A light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.go-back-button{
+    width: auto; /* Adjust the width as needed */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-bottom: 10px; /* Add some space below the select box */
+    border: 1px solid #ccc; /* A light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 20px;
+}
+
+.continue-button{
+    width: auto; /* Adjust the width as needed */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-bottom: 10px; /* Add some space below the select box */
+    border: 1px solid #ccc; /* A light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 20px;
+}
+
+.era5button {
+  width: auto; /* Adjust the width as needed */
+  padding: 8px; /* Add some padding for better appearance */
+  margin-bottom: 10px; /* Add some space below the select box */
+  border: 1px solid #ccc; /* A light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 20px;
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the buttons */
+  transition: background-color 0.3s ease; /* Smooth transition for the background color change on hover */
+
+}
+
+.cmip6button {
+  width: auto; /* Adjust the width as needed */
+  padding: 8px; /* Add some padding for better appearance */
+  margin-bottom: 10px; /* Add some space below the select box */
+  border: 1px solid #ccc; /* A light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 20px;
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the buttons */
+  transition: background-color 0.3s ease; /* Smooth transition for the background color change on hover */
+
+}
+
+.manualbutton{
+  width: auto; /* Adjust the width as needed */
+  padding: 8px; /* Add some padding for better appearance */
+  margin-bottom: 10px; /* Add some space below the select box */
+  border: 1px solid #ccc; /* A light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 20px;
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the buttons */
+  transition: background-color 0.3s ease; /* Smooth transition for the background color change on hover */
+}
+
+.cmip6-options {
+  padding: 16px; /* padding inside the container */
+  border-radius: 4px; /* rounded corners */
+  margin-bottom: 20px; /* space below the container */
+}
+
+
+.cmip6-options h2 {
+  margin-top: 0;
+  color: #000000; /* darker text for the heading */
+}
+
+.cmip6-options p {
+  color: #666; /* lighter text for the paragraph */
+  font-size: 20px;
+}
+
+.cmip6-options label {
+  display: inline-block; /* puts the label in line with the radio button */
+  margin-right: 20px; /* space between the radio options */
+  font-size: 20px; /* size of the text */
+  color: #000000; /* text color */
+  vertical-align: middle; /* aligns the text with the radio button */
+}
+
+/* This is to style the radio button itself, hiding the default appearance */
+.cmip6-options input[type="radio"] {
+  appearance: none;
+  background-color: #fff; /* white background */
+  border: 1px solid #000000; /* light grey border */
+  border-radius: 50%; /* round shape */
+  width: 16px; /* size of the radio button */
+  height: 16px; /* size of the radio button */
+  vertical-align: middle; /* aligns the radio button vertically */
+  position: relative; /* for positioning the checkmark */
+  cursor: pointer; /* indicates the element is clickable */
+}
+
+/* Style for the checked state of the radio button */
+.cmip6-options input[type="radio"]:checked::before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  background-color: #333; /* dark checkmark */
+  border-radius: 50%; /* round shape */
+}
+
+/* Download Status Styles */
+.download-status {
+  color: #07182b; /* Blue color for visibility and aesthetic alignment */
+  font-size: 16px; /* Suitable font size for readability */
+  font-weight: bold; /* Bold text for emphasis */
+  margin-top: 10px; /* Spacing from the button above */
+  padding: 8px 12px; /* Padding for better text display */
+  text-align: center; /* Center-align the text for balance */
+  width: auto; /* Automatic width based on content */
+}
+@keyframes dots {
+  0%, 20% {
+    content: '.';
+  }
+  40% {
+    content: '..';
+  }
+  60% {
+    content: '...';
+  }
+  80%, 100% {
+    content: '';
+  }
+}
+
+/* Class specifically for the downloading animation */
+.downloading-dots::after {
+    display: inline-block;
+    content: ''; /* This is required to keep space for pseudo-element */
+    width: 1ch; /* Space for three dots */
+    animation: dots 1.5s infinite step-start both;
+}
+
+.submit-status {
+  color: #07182b; /* Blue color for visibility and aesthetic alignment */
+  font-size: 16px; /* Suitable font size for readability */
+  font-weight: bold; /* Bold text for emphasis */
+  margin-top: 10px; /* Spacing from the button above */
+  padding: 8px 12px; /* Padding for better text display */
+  text-align: center; /* Center-align the text for balance */
+  width: auto; /* Automatic width based on content */
+}
+
+.submiting-dots::after {
+  display: inline-block;
+  content: ''; /* This is required to keep space for pseudo-element */
+  width: 1ch; /* Space for three dots */
+  animation: dots 1.5s infinite step-start both;
+}
+
+.continue-button {
+  width: auto; /* Adjust the width as needed */
+  padding: 8px; /* Add some padding for better appearance */
+  margin-bottom: 10px; /* Add some space below the select box */
+  border: 0.5px solid #000000; /* A light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 20px;
+}
+
+.home-button {
+  width: auto; /* Adjust the width as needed */
+  padding: 8px; /* Add some padding for better appearance */
+  margin-bottom: 10px; /* Add some space below the select box */
+  margin-left: 20px;
+  border: 0.5px solid #000000; /* A light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 20px;
+}
+
+

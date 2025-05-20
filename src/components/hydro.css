@@ -1,0 +1,95 @@
+.gallery-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    justify-content: center; /* Align buttons in the center horizontally */
+    display: grid;
+  }
+  
+  .initial-image {
+    width: 100%;
+    display: block;
+  }
+  
+  .Subbasin-dropdown {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  
+  .image-display {
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .image-display img {
+    width: 100%;
+    display: block;
+  }
+  
+  .download-btn, .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-btn {
+    right: 50px;
+    background-color: #dc3545;
+  }
+  
+  .graph-dropdown{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+  }
+
+  .generate-btn{
+    width: auto; /* Adjust the width as needed */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-top: 20px;
+    margin-bottom: 10px; /* Add some space below the select box */
+    border: 1px solid #ccc; /* A light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 20px;
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the buttons */
+    transition: background-color 0.3s ease; /* Smooth transition for the background color change on hover */
+    align-items: center;
+    justify-content: center; /* Align buttons in the center horizontally */
+  }
+
+  .gallery-container {
+    text-align: center;
+  }
+  
+  .initial-image {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .select-features {
+    margin-bottom: 20px;
+  }
+  
+  .Subbasin-dropdown{
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  .graph-dropdown {
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+ 
